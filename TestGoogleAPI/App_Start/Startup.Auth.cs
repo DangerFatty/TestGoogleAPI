@@ -58,11 +58,11 @@ namespace TestGoogleAPI
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "911688960419-06o67r1dhqc4pbc3mbb2jt03h2rnogtm.apps.googleusercontent.com",
+                ClientSecret = "yl4dl1FgNX6dIJpywL3MP7d4"
+            });
         }
     }
 }
